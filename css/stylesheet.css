@@ -1,0 +1,40 @@
+body{/*styles the entire body*/
+    background-color: whitesmoke;
+}
+h1{/*styles all the h1*/
+    font-size: 270%;
+    font-weight: 40;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 2%;
+
+}
+nav ul /*styles the ul in the nav bar*/
+{
+    list-style-type: none;
+    padding: 3%;
+    margin: 0;
+    border: 1 solid rgb(247, 168, 199);
+    background-color:  rgb(247, 168, 199);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+nav a:hover{/*styles the nav bar when hovering above the buttons*/
+    color: rgb(247, 168, 199);
+    background-color: aliceblue;
+    transition: background-color 0.5s ease;
+}
+a/*styles hyperlinks*/
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li {/*styling list items in the nav bar*/
+    display: inline;
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+    font-size: large;
+}
+#center{/*id centering the nav bar*/
+    padding-left: 37%;
+}
