@@ -24,7 +24,7 @@ nav a:hover{/*styles the nav bar when hovering above the buttons*/
     background-color: aliceblue;
     transition: background-color 0.5s ease;
 }
-a/*styles hyperlinks*/
+ul a/*styles hyperlinks*/
 {
     color: aliceblue;
     text-decoration: none;
@@ -36,5 +36,6 @@ nav ul li {/*styling list items in the nav bar*/
     font-size: large;
 }
 #center{/*id centering the nav bar*/
-    padding-left: 37%;
+
+
 }
