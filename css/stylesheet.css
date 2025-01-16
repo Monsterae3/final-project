@@ -8,6 +8,7 @@ h1{/*styles all the h1*/
     margin-top: 2%;
 
 }
+
 nav ul /*styles the ul in the nav bar*/
 {
     list-style-type: none;
@@ -35,7 +36,34 @@ nav ul li {/*styling list items in the nav bar*/
     transition: background-color 0.3s ease;
     font-size: large;
 }
-#center{/*id centering the nav bar*/
 
+.image-button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000; /* Text color */
+    font-size: 16px; /* Adjust as needed */
+}
 
+.image-button img {
+    width: 170px;
+    height: 80px;
+    display: block; /* Remove any gaps below the image */
+    position: relative;
+    z-index: 2; /* Bring the image above the text */
+}
+
+.image-button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust font size */
+    text-align: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    z-index: 1; /* Place text behind the image */
 }
